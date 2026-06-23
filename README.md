@@ -15,6 +15,7 @@ I run [**Tengra Studio**](https://github.com/TengraStudio), where we're building
 - Rust is on my list but I keep procrastinating
 
 **Things I've built:**
+- [awesome-turkish-dev](https://github.com/alztrk/awesome-turkish-dev) — curated list of Turkish dev resources, datasets, tools, communities
 - [tengra](https://github.com/TengraStudio/tengra) — AI workspace with local models, Git integration, Rust sidecar
 - [tengra-market](https://github.com/TengraStudio/tengra-market) — marketplace for themes, MCP modules, skills, and model indices
 - [job-finder-plugin](https://github.com/TengraStudio/job-finder-plugin) — AI-assisted CV profiling and job search plugin for Tengra
