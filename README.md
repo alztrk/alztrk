@@ -2,6 +2,11 @@
 
 I'm a developer from Istanbul who just builds whatever feels interesting at the moment. No specific sector, no strict roadmap — just code and curiosity.
 
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=alztrk&show_icons=true&count_private=true&hide_title=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alztrk&layout=compact&hide_title=true" height="150" />
+</p>
+
 I run [**Tengra Studio**](https://github.com/TengraStudio), where we're building [tengra](https://github.com/TengraStudio/tengra) — a cross-platform AI workspace for developers. It's been my main focus lately and honestly, it's the most fun I've had in a while.
 
 **What I work with:**
