@@ -1,113 +1,109 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TengraStudio/tengra/main/assets/tengra_white_bg_black.png" alt="Tengra" width="180">
-  <br><br>
-  <h1>Alican Öztürk</h1>
-  <p><strong>Developer tools, local AI, and cross-platform products.</strong></p>
-  <p>
-    <a href="https://alztrk.github.io">Portfolio</a>
-    &nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href="https://github.com/TengraStudio">Tengra Studio</a>
-    &nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href="https://x.com/alz_trk">X</a>
-  </p>
+
+# Alican Öztürk
+
+### I build small tools, ambitious experiments, and useful things for developers.
+
+<a href="https://alztrk.github.io"><img src="https://img.shields.io/badge/Portfolio-0f766e?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio"></a>
+<a href="https://github.com/alztrk?tab=repositories"><img src="https://img.shields.io/badge/Public_repositories-111827?style=flat-square&logo=github&logoColor=white" alt="Public repositories"></a>
+<a href="https://github.com/TengraStudio"><img src="https://img.shields.io/badge/Tengra_Studio-7c3aed?style=flat-square" alt="Tengra Studio"></a>
+
 </div>
 
 <br>
 
-I build software that makes technical work feel more direct: local AI workspaces, project operations, developer infrastructure, and small tools with a clear job to do.
+I’m a developer from Istanbul. My work moves between product engineering, local AI, automation, and open source. I care about software that has a clear point of view, a useful workflow, and enough documentation for someone else to pick it up.
 
-Based in Istanbul. Working mainly with TypeScript, React, React Native, Python, and Rust.
-
-## The main thing
+## The workbench
 
 <table>
   <tr>
-    <td width="58%" valign="top">
-      <h2><a href="https://github.com/TengraStudio/tengra">Tengra</a></h2>
-      <p><strong>A cross-platform AI workspace for developers and everyday users.</strong></p>
-      <p>Tengra brings conversations, local models, Git-backed workspaces, image generation, and extensible tools into one desktop surface.</p>
-      <p>
-        <a href="https://github.com/TengraStudio/tengra/releases">Releases</a>
-        &nbsp;·&nbsp;
-        <a href="https://github.com/TengraStudio/tengra/blob/main/ARCHITECTURE.md">Architecture</a>
-        &nbsp;·&nbsp;
-        <a href="https://github.com/TengraStudio/tengra/blob/main/SECURITY.md">Security</a>
-      </p>
+    <td width="25%" valign="top">
+      <h3>Product</h3>
+      <p>Desktop and cross-platform tools that make complicated workflows easier to see and use.</p>
+      <sub>React · React Native · Electron · Tauri</sub>
     </td>
-    <td width="42%" valign="top">
-      <p><strong>Product surfaces</strong></p>
-      <ul>
-        <li>Local and hosted AI models</li>
-        <li>Git-aware workspaces</li>
-        <li>Native desktop operations</li>
-        <li>Image generation</li>
-        <li>Marketplace and extensions</li>
-      </ul>
+    <td width="25%" valign="top">
+      <h3>AI</h3>
+      <p>Local model workflows, AI-assisted tools, and infrastructure around real developer tasks.</p>
+      <sub>LLMs · MCP · Local-first · Python</sub>
+    </td>
+    <td width="25%" valign="top">
+      <h3>Automation</h3>
+      <p>Bots, proxies, extensions, and small utilities that remove repetitive friction.</p>
+      <sub>Node.js · FastAPI · Docker · SQLite</sub>
+    </td>
+    <td width="25%" valign="top">
+      <h3>Community</h3>
+      <p>Resources and datasets that make the Turkish developer ecosystem easier to discover.</p>
+      <sub>Open source · Turkish · Curation</sub>
     </td>
   </tr>
 </table>
 
-## Selected work
+## Public projects worth exploring
 
-These are the public projects that best represent what I am interested in building.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/TengraStudio/tengra">Tengra</a></h3>
+      <p>A cross-platform AI workspace with local models, Git-backed workspaces, image generation, and extensible tools.</p>
+      <p><sub>TypeScript · Electron · React · Rust</sub></p>
+      <a href="https://github.com/TengraStudio/tengra"><img src="https://img.shields.io/github/stars/TengraStudio/tengra?style=flat-square&label=stars" alt="Tengra stars"></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/alztrk/OpenDeploy">OpenDeploy</a></h3>
+      <p>A local-first workspace for scaffolding projects, running processes, following logs, and inspecting project health.</p>
+      <p><sub>TypeScript · React · Fastify · Tauri</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/alztrk/opencode-ip-rotator">OpenCode IP Rotator</a></h3>
+      <p>A local proxy and network-resilience service with connection rotation and persistent usage metrics.</p>
+      <p><sub>Python · FastAPI · Docker · SQLite</sub></p>
+      <a href="https://github.com/alztrk/opencode-ip-rotator"><img src="https://img.shields.io/github/stars/alztrk/opencode-ip-rotator?style=flat-square&label=stars" alt="OpenCode IP Rotator stars"></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/alztrk/UniBot">UniBot</a></h3>
+      <p>A multi-platform bot framework built around adapters, multi-account support, CLI usage, and daemon workflows.</p>
+      <p><sub>Python · Automation · CLI · Bots</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/TengraStudio/tengra-market">Tengra Market</a></h3>
+      <p>A public ecosystem for themes, MCP modules, language packs, skills, and model indices.</p>
+      <p><sub>AI tooling · Extensions · Open source</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/alztrk/awesome-turkish-dev">Awesome Turkish Dev</a></h3>
+      <p>A curated map of Turkish developer resources, datasets, tools, communities, and career links.</p>
+      <p><sub>Community · Turkish · Resources</sub></p>
+    </td>
+  </tr>
+</table>
 
-### 01 · Developer workspaces
-
-**[OpenDeploy](https://github.com/alztrk/OpenDeploy)** is a local-first workspace for scaffolding projects, running local processes, following logs, and inspecting project health.
-
-`TypeScript` `React` `Fastify` `Tauri`
-
-### 02 · AI infrastructure
-
-**[OpenCode IP Rotator](https://github.com/alztrk/opencode-ip-rotator)** is a local proxy and network-resilience service for OpenCode workflows, with WARP-backed connection rotation and SQLite usage metrics.
-
-`Python` `FastAPI` `Docker` `SQLite`
-
-### 03 · Developer automation
-
-**[UniBot](https://github.com/alztrk/UniBot)** is a multi-platform bot framework built around reusable adapters, multi-account support, CLI usage, and daemon workflows.
-
-`Python` `Automation` `CLI` `Bots`
-
-### 04 · Open-source ecosystem
-
-**[Tengra Market](https://github.com/TengraStudio/tengra-market)** hosts themes, MCP modules, language packs, skills, and model indices for Tengra.
-
-**[Awesome Turkish Dev](https://github.com/alztrk/awesome-turkish-dev)** collects Turkish developer resources, datasets, tools, communities, and career links.
-
-`Open source` `AI tooling` `Turkish developer community`
-
-## What I care about
-
-| Principle | In practice |
-| --- | --- |
-| Local first | Keep useful workflows close to the user, their files, and their models. |
-| Clear boundaries | Make permissions, runtime state, integrations, and failure modes visible. |
-| Useful over ornamental | A project should solve a real workflow before it tries to look impressive. |
-| Document the edges | Explain setup, limitations, compatibility, and what is not implemented. |
-
-## Stack
+## A few signals
 
 <p>
-  <img src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/React_Native-111827?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native">
-  <img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
-  <img src="https://img.shields.io/badge/Rust-111827?style=flat-square&logo=rust&logoColor=DEA584" alt="Rust">
-  <img src="https://img.shields.io/badge/Electron-111827?style=flat-square&logo=electron&logoColor=9FEAF9" alt="Electron">
-  <img src="https://img.shields.io/badge/Tauri-111827?style=flat-square&logo=tauri&logoColor=24C8DB" alt="Tauri">
-  <img src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker">
+  <a href="https://github.com/alztrk/opencode-ip-rotator/network/members"><img src="https://img.shields.io/github/forks/alztrk/opencode-ip-rotator?style=flat-square&label=OpenCode%20IP%20Rotator%20forks" alt="OpenCode IP Rotator forks"></a>
+  <a href="https://github.com/alztrk/awesome-turkish-dev"><img src="https://img.shields.io/github/last-commit/alztrk/awesome-turkish-dev?style=flat-square&label=Awesome%20Turkish%20Dev%20updated" alt="Awesome Turkish Dev last commit"></a>
+  <a href="https://github.com/alztrk/turkish-code-instructions"><img src="https://img.shields.io/github/license/alztrk/turkish-code-instructions?style=flat-square&label=dataset%20license" alt="Turkish Code Instructions license"></a>
 </p>
 
-## More
+## Tools I reach for
+
+`TypeScript` · `React` · `React Native` · `Python` · `Rust` · `Electron` · `Tauri` · `FastAPI` · `Docker` · `SQLite`
+
+## Around the work
 
 - [Portfolio](https://alztrk.github.io)
-- [All public repositories](https://github.com/alztrk?tab=repositories)
 - [Tengra Studio](https://github.com/TengraStudio)
 - [@alz_trk on X](https://x.com/alz_trk)
 
 <br>
 
 <div align="center">
-  <sub>Building focused tools from Istanbul.</sub>
+  <sub>Curious by default. Serious about the parts that matter.</sub>
 </div>
