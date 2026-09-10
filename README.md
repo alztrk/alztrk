@@ -20,7 +20,7 @@ I’m building **[Tengra](https://github.com/TengraStudio/tengra)**, a cross-pla
 
 <p align="center">
   <a href="https://github.com/TengraStudio/tengra">
-    <img src="https://raw.githubusercontent.com/TengraStudio/tengra/main/assets/readme-screenshots/home.png" alt="Tengra workspace interface" width="92%">
+    <img src="https://raw.githubusercontent.com/TengraStudio/tengra/main/assets/tengra_white_bg_black.png" alt="Tengra" width="240">
   </a>
 </p>
 
