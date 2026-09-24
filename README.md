@@ -33,8 +33,8 @@ Right now I’m exploring:
       <p><sub>TypeScript · React · Fastify · Tauri</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/TengraStudio/tengra">Tengra</a></h3>
-      <p>A cross-platform AI workspace with local models, Git-backed workspaces, image generation, and extensible tools.</p>
+      <h3><a href="https://github.com/alztrk/tengra">Tengra</a></h3>
+      <p>Chat with AI your way, using cloud models or running your own locally.</p>
       <p><sub>TypeScript · Electron · React · Rust</sub></p>
     </td>
   </tr>
