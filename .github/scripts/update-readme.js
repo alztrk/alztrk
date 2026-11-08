@@ -10,27 +10,27 @@ const KNOWN_METADATA = {
   OpenMail: {
     description:
       "Lightweight, local-first Windows desktop mail client with Gmail and Microsoft OAuth integration, local offline storage, and an MCP sidecar.",
-    stack: ["Rust", "Tauri", "React", "TypeScript", "MCP"],
+    topics: ["desktop-app", "email-client", "tauri", "rust", "mcp"],
   },
   "opencode-ip-rotator": {
     description:
       "Automated Cloudflare WARP IP rotator and proxy service. Prevents HTTP 429 rate limits, tracks usage metrics with SQLite, and provides a management dashboard.",
-    stack: ["Python", "FastAPI", "Docker", "SQLite"],
+    topics: ["cloudflare-warp", "fastapi", "ip-rotator", "proxy-server", "sqlite"],
   },
   OpenWidget: {
     description:
       "Modern Windows desktop widget for real-time hardware monitoring, system telemetry, weather, media controls, and productivity tools.",
-    stack: ["Rust", "Tauri", "React", "TypeScript"],
+    topics: ["desktop-widget", "hardware-monitoring", "telemetry", "system-monitor", "windows"],
   },
   openchat: {
     description:
       "Privacy-focused desktop AI client supporting both cloud providers and local inference via llama.cpp in an isolated workspace.",
-    stack: ["Rust", "Tauri", "React", "TypeScript", "Local AI"],
+    topics: ["ai-chat", "desktop-app", "local-ai", "local-models", "cross-platform"],
   },
   "awesome-turkish-dev": {
     description:
       "Curated collection of resources, datasets, tools, communities, and career guides for Turkish developers.",
-    stack: ["Community", "Turkish Tech", "Open Source"],
+    topics: ["turkish-developers", "resources", "datasets", "developer-tools", "awesome-list"],
   },
 };
 
@@ -56,26 +56,29 @@ async function fetchUserRepos(username) {
   return response.json();
 }
 
-function formatStack(repo) {
+function formatTags(repo) {
   const known = KNOWN_METADATA[repo.name];
-  if (known?.stack) {
-    return known.stack.join(" · ");
+  let tags = [];
+
+  if (Array.isArray(repo.topics) && repo.topics.length > 0) {
+    tags = repo.topics.slice(0, 5);
+  } else if (known?.topics && Array.isArray(known.topics)) {
+    tags = known.topics;
+  } else if (repo.language) {
+    tags = [repo.language.toLowerCase()];
   }
 
-  const stackItems = [];
-  if (repo.language) {
-    stackItems.push(repo.language);
-  }
-  if (Array.isArray(repo.topics)) {
-    for (const topic of repo.topics) {
-      if (stackItems.length >= 4) break;
-      if (!stackItems.includes(topic)) {
-        stackItems.push(topic);
-      }
-    }
+  if (tags.length === 0) {
+    return "";
   }
 
-  return stackItems.length > 0 ? stackItems.join(" · ") : "Open Source";
+  return tags.map((tag) => `\`${tag}\``).join(" ");
+}
+
+function formatStars(repo) {
+  const count = repo.stargazers_count ?? 0;
+  const label = count === 1 ? "star" : "stars";
+  return `(★ ${count} ${label})`;
 }
 
 function formatDescription(repo) {
@@ -95,8 +98,10 @@ function generateMarkdown(repos) {
   return repos
     .map((repo) => {
       const desc = formatDescription(repo);
-      const stack = formatStack(repo);
-      return `- **[${repo.name}](${repo.html_url})**: ${desc}\n  *Stack: ${stack}*`;
+      const stars = formatStars(repo);
+      const tags = formatTags(repo);
+      const tagsLine = tags ? `\n  Tags: ${tags}` : "";
+      return `- **[${repo.name}](${repo.html_url})** ${stars}: ${desc}${tagsLine}`;
     })
     .join("\n\n");
 }
@@ -117,7 +122,7 @@ async function main() {
     })
     .slice(0, 5);
 
-  console.log(`Top 5 repositories selected: ${topRepos.map((r) => r.name).join(", ")}`);
+  console.log(`Top 5 repositories selected: ${topRepos.map((r) => `${r.name} (${r.stargazers_count} stars)`).join(", ")}`);
 
   const generatedBlock = generateMarkdown(topRepos);
 
