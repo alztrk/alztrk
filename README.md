@@ -10,20 +10,22 @@ Software developer based in Istanbul. I build local-first desktop apps, develope
 
 Here are five key open-source projects from my GitHub:
 
+<!-- PROJECTS:START -->
 - **[opencode-ip-rotator](https://github.com/alztrk/opencode-ip-rotator)**: Automated Cloudflare WARP IP rotator and proxy service. Prevents HTTP 429 rate limits, tracks usage metrics with SQLite, and provides a management dashboard.
   *Stack: Python · FastAPI · Docker · SQLite*
 
 - **[OpenWidget](https://github.com/alztrk/OpenWidget)**: Modern Windows desktop widget for real-time hardware monitoring, system telemetry, weather, media controls, and productivity tools.
   *Stack: Rust · Tauri · React · TypeScript*
 
-- **[OpenMail](https://github.com/alztrk/OpenMail)**: Lightweight, local-first Windows desktop mail client with Gmail and Microsoft OAuth integration, local offline storage, and an MCP sidecar.
-  *Stack: Rust · Tauri · React · TypeScript · MCP*
-
-- **[openchat](https://github.com/alztrk/openchat)**: Privacy-focused desktop AI client supporting both cloud providers and local inference via `llama.cpp` in an isolated workspace.
+- **[openchat](https://github.com/alztrk/openchat)**: Privacy-focused desktop AI client supporting both cloud providers and local inference via llama.cpp in an isolated workspace.
   *Stack: Rust · Tauri · React · TypeScript · Local AI*
 
 - **[awesome-turkish-dev](https://github.com/alztrk/awesome-turkish-dev)**: Curated collection of resources, datasets, tools, communities, and career guides for Turkish developers.
   *Stack: Community · Turkish Tech · Open Source*
+
+- **[OpenMail](https://github.com/alztrk/OpenMail)**: Lightweight, local-first Windows desktop mail client with Gmail and Microsoft OAuth integration, local offline storage, and an MCP sidecar.
+  *Stack: Rust · Tauri · React · TypeScript · MCP*
+<!-- PROJECTS:END -->
 
 ---
 
