@@ -7,6 +7,11 @@ const __dirname = path.dirname(__filename);
 const README_PATH = path.resolve(__dirname, "../../README.md");
 
 const KNOWN_METADATA = {
+  opentaskbar: {
+    description:
+      "Lightweight macOS-inspired floating dock and taskbar replacement for Windows 10 and 11.",
+    topics: ["csharp", "customization", "desktop", "dock", "dotnet"],
+  },
   OpenMail: {
     description:
       "Lightweight, local-first Windows desktop mail client with Gmail and Microsoft OAuth integration, local offline storage, and an MCP sidecar.",
@@ -88,7 +93,8 @@ function formatDescription(repo) {
   }
 
   if (repo.description && repo.description.trim().length > 0) {
-    return repo.description.trim().replace(/\s+/g, " ");
+    const desc = repo.description.trim().replace(/\s+/g, " ");
+    return desc.endsWith(".") ? desc : `${desc}.`;
   }
 
   return "Open-source software project.";

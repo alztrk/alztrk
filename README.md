@@ -11,20 +11,20 @@ Software developer based in Istanbul. I build local-first desktop apps, develope
 Here are five key open-source projects from my GitHub:
 
 <!-- PROJECTS:START -->
+- **[opentaskbar](https://github.com/alztrk/opentaskbar)** (★ 76 stars): Lightweight macOS-inspired floating dock and taskbar replacement for Windows 10 and 11.
+  Tags: `csharp` `customization` `desktop` `dock` `dotnet`
+
 - **[opencode-ip-rotator](https://github.com/alztrk/opencode-ip-rotator)** (★ 42 stars): Automated Cloudflare WARP IP rotator and proxy service. Prevents HTTP 429 rate limits, tracks usage metrics with SQLite, and provides a management dashboard.
   Tags: `ai-proxy` `cloudflare-warp` `docker-compose` `fastapi` `ip-rotator`
 
-- **[OpenWidget](https://github.com/alztrk/OpenWidget)** (★ 11 stars): Modern Windows desktop widget for real-time hardware monitoring, system telemetry, weather, media controls, and productivity tools.
+- **[OpenWidget](https://github.com/alztrk/OpenWidget)** (★ 13 stars): Modern Windows desktop widget for real-time hardware monitoring, system telemetry, weather, media controls, and productivity tools.
   Tags: `csharp` `desktop-widget` `dotnet` `hardware-monitoring` `self-contained`
 
-- **[openchat](https://github.com/alztrk/openchat)** (★ 3 stars): Privacy-focused desktop AI client supporting both cloud providers and local inference via llama.cpp in an isolated workspace.
+- **[openchat](https://github.com/alztrk/openchat)** (★ 4 stars): Privacy-focused desktop AI client supporting both cloud providers and local inference via llama.cpp in an isolated workspace.
   Tags: `ai-assistant` `ai-chat` `anthropic` `claude-code` `codex`
 
-- **[awesome-turkish-dev](https://github.com/alztrk/awesome-turkish-dev)** (★ 1 star): Curated collection of resources, datasets, tools, communities, and career guides for Turkish developers.
+- **[awesome-turkish-dev](https://github.com/alztrk/awesome-turkish-dev)** (★ 2 stars): Curated collection of resources, datasets, tools, communities, and career guides for Turkish developers.
   Tags: `turkish-developers` `resources` `datasets` `developer-tools` `awesome-list`
-
-- **[OpenMail](https://github.com/alztrk/OpenMail)** (★ 1 star): Lightweight, local-first Windows desktop mail client with Gmail and Microsoft OAuth integration, local offline storage, and an MCP sidecar.
-  Tags: `desktop-app` `email-client` `tauri` `rust` `mcp`
 <!-- PROJECTS:END -->
 
 ---
