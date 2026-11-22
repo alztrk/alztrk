@@ -11,7 +11,7 @@ Software developer based in Istanbul. I build local-first desktop apps, develope
 Here are five key open-source projects from my GitHub:
 
 <!-- PROJECTS:START -->
-- **[opentaskbar](https://github.com/alztrk/opentaskbar)** (★ 220 stars): Lightweight macOS-inspired floating dock and taskbar replacement for Windows 10 and 11.
+- **[opentaskbar](https://github.com/alztrk/opentaskbar)** (★ 242 stars): Lightweight macOS-inspired floating dock and taskbar replacement for Windows 10 and 11.
   Tags: `csharp` `customization` `desktop` `dock` `dotnet`
 
 - **[opencode-ip-rotator](https://github.com/alztrk/opencode-ip-rotator)** (★ 44 stars): Automated Cloudflare WARP IP rotator and proxy service. Prevents HTTP 429 rate limits, tracks usage metrics with SQLite, and provides a management dashboard.
